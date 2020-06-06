@@ -63,6 +63,7 @@ GEM
     crass (1.0.6)
     erubi (1.9.0)
     execjs (2.7.0)
+    ffi (1.12.2)
     ffi (1.12.2-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -70,6 +71,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
+    libv8 (3.16.14.19)
     loofah (2.5.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -80,8 +82,11 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     nio4r (2.5.2)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     public_suffix (4.0.4)
     puma (3.12.4)
@@ -120,6 +125,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    ref (2.0.0)
     rubyzip (2.3.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -143,6 +149,9 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -162,11 +171,12 @@ GEM
       railties (>= 5.0)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
